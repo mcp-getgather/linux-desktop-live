@@ -31,7 +31,7 @@ echo "noVNC viewable at http://localhost:3001"
 
 xeyes &
 xclock &
-firefox-esr duck.com &
+firefox-esr startpage.com &
 
 # Keep the container running
 while true; do sleep 1; done
