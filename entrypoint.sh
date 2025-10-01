@@ -18,6 +18,7 @@ startxfce4 >/dev/null 2>&1 &
 
 echo "Starting x11vnc server..."
 x11vnc \
+  -shared \
   -forever \
   -nopw \
   -rfbport 5900 \
